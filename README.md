@@ -5,7 +5,11 @@ Overview
 The Image Editor project is a Java application that allows users to open an image, remove the bluest or a random column, and undo changes. The graphical user interface (GUI) is built using Swing, and images are manipulated using the Java AWT and BufferedImage classes. The project also includes JUnit tests to ensure the functionality is robust and reliable.
 
 Features
+
 Open Image: Load an image from the file system.
+
 Remove Bluest Column: Identify and remove the column with the highest sum of blue color components.
+
 Remove Random Column: Remove a randomly selected column from the image.
+
 Undo: Revert the last change made to the image.
